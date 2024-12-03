@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.skill{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 20px;
+  height: 500px;
+  position: relative;
+    
+   
+}
+img{
+   position:absolute;
+   position: absolute;
+   padding: 64px;
+   padding-left: 153px;
+   margin: auto;
+   display: block;
+   border-radius: 6px;
+   padding-bottom: -43px;
+    
+}
+.white{
+    background-color: white;
+    border: 20px solid #333;
+    border-right: 45px solid #333;
+    margin: -25px;
+    padding: 168px;
+   
+}
+.black{
+    background-color:#333;
+    border: 13px solid white;
+    border-left: 0px;
+    margin: -20px;
+    padding: 237px;
+    
+    
+   
+}
