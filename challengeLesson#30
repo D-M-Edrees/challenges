@@ -1,0 +1,33 @@
+//String Challenge Lesson #030
+
+let n = "Elzero Web School";
+// Include This Method In Your Solution [slice, charAt]
+console.log(); // Zero
+// 8 H
+console.log(); // HHHHHHHH
+// Return Array
+console.log(); // ["Elzero"]
+// Use Only "substr" Method + Template Literals In Your Solution
+console.log(); // Elzero School
+// Solution Must Be Dynamic Because String May Changes
+console.log().toUpperCase() + 
+a.slice( ); // eLZERO WEB SCHOOl
+//Another Solution
+console.log(); // eLZERO WEB SCHOO
+
+
+
+
+Solution:
+
+1-console.log(n.charAt(2).toUpperCase()+n.slice(3,6))
+2-console.log(n.charAt(13).toUpperCase().repeat(8))
+3-console.log(n.split(" ",1))
+4-console.log(n.substr("Web"))
+5-console.log(n.substr(0,6) +" "+n.substr(11,6));
+6-console.log(n.slice(0,2).toLowerCase()+n.slice(2,17).toUpperCase());
+
+
+
+
+
