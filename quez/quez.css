@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.content{
+     display: flex; 
+   padding: 12px 25px;
+    justify-content: space-between;
+
+}
+ul li a {
+text-decoration: none;
+color:#666;
+margin-left: 5px;
+    align-items: space-evenly;
+justify-content: space-around;
+justify-items: space-around;
+}
+ul{
+    list-style-type:none;
+    align-items: space-evenly;
+}
+a{
+    align-items: space-evenly;
+    justify-content: space-around;
+
+}
+.paragraph{
+    padding: 10px 15px;
+    margin: auto;
+    padding: 20px 5px;
+    background-color: #eee;
+    border:20px 10px solid #eee;
+
+}
+.paragraph h2{
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 10px;
+    padding: 10px 10px;
+}
+p{
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+ .blue{
+     color:rgb(34, 26, 145);
+}
+.logo{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px 20px;
+    padding: 15px 20px;
+    text-align: center;
+}
+figcaption{
+font-weight: bold;
+}
+.about{
+    display:flex;
+    background-color: #eee;
+}
+.img{
+
+height: auto;
+}
+.abou h4{
+    padding:10px 20px ;
+    margin-bottom: 15px;
+}
+.num{
+    display: flex;
+     justify-content:center ; 
+padding-top: 29px;
+}
+.one{
+    background-color: brown;
+    text-align: center;
+    width: 20%;
+    padding: 30px 20px;
+    margin: 12px 10px;
+    color:white;
+
+}
+.two{
+    background-color: darkcyan;
+    text-align: center;
+    width: 20%;
+    padding: 30px 20px;
+    margin: 12px 10px;
+    color:white;
+   
+
+}
+.three{
+    background-color: darkgreen;
+    text-align: center;
+    width: 20%;
+    padding: 30px 20px;
+    margin: 12px 10px;
+    word-spacing: normal;
+    color:white;
+
+
+}
+.skills{
+    padding: 15px 0;
+    
+    background-color: #eee;
+}
+
+/* .inside div {
+  width: 300px;
+  color: #197beb;
+} */
+ .progress{
+    background-color:white;
+    border-radius:5px ;
+    overflow: hidden;
+    width: 335px;
+
+ }
+.progress-bar{
+   background-color: #197beb;
+color:white;
+text-align: end;
+}
+.skills h2{
+text-align: center;
+
+}
+.skill{
+    display: flex;
+    margin: 0 20px;
+    padding: 10px;
+}
+.skill h4{
+    margin: 0 20px;
+    padding-left: 20px;
+}
+
